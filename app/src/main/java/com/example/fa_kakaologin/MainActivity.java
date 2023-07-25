@@ -7,11 +7,9 @@ import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.Signature;
-import android.graphics.Point;
 import android.os.Bundle;
 import android.util.Base64;
 import android.util.Log;
-import android.view.Display;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
