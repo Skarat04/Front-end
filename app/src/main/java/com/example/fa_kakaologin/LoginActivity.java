@@ -63,9 +63,12 @@ public class LoginActivity extends AppCompatActivity {
                     if(pw.length() != 0) {
                         // 아이디와 비밀번호 모두 올바르게 입력
                         // + 입력한 정보가 중복된 계정이라고 가정
+                        // ++ 위 가정을 무시하고 입력한 정보로 로그인에 성공했다고 가정
 
-                        // 이미 존재하는 계정 알림 창으로 이동
-                        Intent intent = new Intent(getApplicationContext(), ExistsAccountActivity.class);
+                        // + 이미 존재하는 계정 알림 창으로 이동
+                        // ++ 메인 화면으로 이동
+//                        Intent intent = new Intent(getApplicationContext(), ExistsAccountActivity.class);
+                        Intent intent = new Intent(getApplicationContext(), MainIndexActivity.class);
                         startActivity(intent);
                     } else {
                         // 비밀번호 미입력

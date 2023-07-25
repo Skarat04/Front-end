@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Contents"
+        android:icon="@drawable/icon_contents"
+        android:title="Contents"/>
+
+    <item
+        android:id="@+id/Interest"
+        android:icon="@drawable/icon_interest_list"
+        android:title="Interest"/>
+
+    <item
+        android:id="@+id/Search"
+        android:icon="@drawable/icon_search"
+        android:title="Search"/>
+
+    <item
+        android:id="@+id/Copy"
+        android:icon="@drawable/icon_copy"
+        android:title="Copy"/>
+
+</menu>
